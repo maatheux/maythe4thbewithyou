@@ -122,8 +122,9 @@
 .banner .social-medias{
     position: absolute;
     top: 70%;
-    left: 84%;
+    right: 1%;
     width: 15%;
+    min-width: 205px;
     height: 25%;
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +138,7 @@
 .banner .social-medias a{
     width: 24%;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 0.8s;
     overflow: hidden;
     border-radius: 4px;
 }
