@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: starjedi;
+    src: url("../fonts/Starjedi.ttf");
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #000200;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .logo{
+    width: 52%;
+    height: 100vh;
+    background: url("../images/Star_Wars_Day_May_The_Fourth.png") no-repeat center;
+    background-size: contain;
+    z-index: 1;
+}
+
+.banner .star{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-size: cover;
+    animation: animate 8s ease-in-out infinite, backgroundmove 16s linear infinite;
+}
+
+.banner .star1{
+    animation-delay: 0s;
+    background-image: url("../images/stars/star1.png");
+}
+
+.banner .star2{
+    animation-delay: -1s;
+    background-image: url("../images/stars/star2.png");
+}
+
+.banner .star3{
+    animation-delay: -2s;
+    background-image: url("../images/stars/star3.png");
+}
+
+.banner .star4{
+    animation-delay: -3s;
+    background-image: url("../images/stars/star4.png");
+}
+
+.banner .star5{
+    animation-delay: -4s;
+    background-image: url("../images/stars/star5.png");
+}
+
+.banner .star6{
+    animation-delay: -5s;
+    background-image: url("../images/stars/star6.png");
+}
+
+.banner .star7{
+    animation-delay: -6s;
+    background-image: url("../images/stars/star7.png");
+}
+
+.banner .star8{
+    animation-delay: -7s;
+    background-image: url("../images/stars/star8.png");
+}
+
+@keyframes animate{
+    0%,20%,40%,60%,80%,100%{
+        opacity: 0;
+    }
+
+    10%,30%,50%,70%,90%{
+        opacity: 1;
+    }
+
+}
+
+.banner > ion-icon{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f5f5f5;
+    font-size: 3.5rem;
+    animation: chevron 1.5s ease infinite;
+}
+
+@keyframes chevron {
+    25%{
+        top: 86.5%;
+    }
+
+    50%{
+        top: 90%;
+    }
+
+    65%{
+        top: 89%;
+    }
+
+    100%{
+        top: 90%;
+    }
+}
+
+
+.banner .social-medias{
+    position: absolute;
+    top: 70%;
+    left: 84%;
+    width: 15%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.banner .social-medias a{
+    width: 24%;
+    text-decoration: none;
+    transition: all 1s;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.banner .social-medias a .box{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-family: starjedi;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.banner .social-medias a .box .name{
+    font-size: 1.5rem;
+    border-radius: 4px 0 0 4px;
+    width: 0%;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    left: 100%;
+    padding-left: 5px; 
+    transition: all 0.8s;
+}
+
+.banner .social-medias a .box .logomedias{
+    background-color: #050505;
+    width: 42px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    z-index: 2;
+}
+
+.banner .social-medias a .box .logomedias ion-icon{
+    font-size: 2rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    
+}
+
+.banner .social-medias a:hover{
+    width: 98%;
+}
+
+.banner .social-medias a:hover .box .logomedias{
+    width: 42px;
+}
+
+.banner .social-medias a:hover .box .name{
+    width: calc(100% - 44px);
+    left: 2%;
+    background-color:  #f5f5f5;
+    color: #050505;
+}
+
+.banner .social-medias a:hover .linkedin .name{
+    background-color: #0077b5;
+    color: #f5f5f5;
+}
+
+.banner .social-medias a:hover .instagram .name{
+    background-color: #dd2a7b;
+    color: #f5f5f5;
+}
+
+
