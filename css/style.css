@@ -245,4 +245,16 @@
     height: 70vh;
     border-bottom: 1px solid #fff;
     background-color: #242423;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.lightsabers .lightsaber-box:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.lightsabers .lightsaber-box .image{
+    width: 50%;
+    height: 100%;
+    background-color: #394247;
 }
