@@ -292,3 +292,8 @@
     background: url("../images/yoda.jpg") no-repeat 50%;
     background-size: cover;
 }
+
+.lightsabers .windu .image{
+    background: url("../images/mace-windu.jpg") no-repeat 50%;
+    background-size: cover;
+}
