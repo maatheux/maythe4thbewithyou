@@ -253,17 +253,6 @@
     flex-direction: row-reverse;
 }
 
-.lightsabers .lightsaber-box .image{
-    width: 50%;
-    height: 100%;
-    background-color: #394247;
-}
-
-.lightsabers .anakin .image{
-    background: url("../images/anakin.jpg") no-repeat 70%;
-    background-size: cover;
-}
-
 .lightsabers .lightsaber-box .text{
     display: flex;
     flex-flow: wrap column; 
@@ -281,4 +270,20 @@
 
 .lightsabers .lightsaber-box .text p{
     font-size: 1.1rem;
+}
+
+.lightsabers .lightsaber-box .image{
+    width: 50%;
+    height: 100%;
+    background-color: #394247;
+}
+
+.lightsabers .anakin .image{
+    background: url("../images/anakin.jpg") no-repeat 70%;
+    background-size: cover;
+}
+
+.lightsabers .obiwan .image{
+    background: url("../images/obiwan.jpg") no-repeat 50%;
+    background-size: cover;
 }
