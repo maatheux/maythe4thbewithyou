@@ -258,7 +258,7 @@
     flex-flow: wrap column; 
     justify-content: space-evenly;
     align-items: center;
-    text-align: justify;
+    
     width: 50%;
     padding: 40px;
     color: #f5f5f5;
@@ -266,10 +266,12 @@
 
 .lightsabers .lightsaber-box .text h3{
     font-size: 2rem;
+    align-items: center;
 }
 
 .lightsabers .lightsaber-box .text p{
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .lightsabers .lightsaber-box .image{
@@ -296,4 +298,23 @@
 .lightsabers .windu .image{
     background: url("../images/mace-windu.jpg") no-repeat 50%;
     background-size: cover;
+}
+
+.lightsabers .ahsoka .image{
+    background: url("../images/ahsoka.jpg") no-repeat;
+    background-size: cover;
+}
+
+.lightsabers .vader .image{
+    background: url("../images/darth-vader-rogueone.jpg") no-repeat 0%;
+    background-size: cover;
+}
+
+.lightsabers .din .image{
+    background: url("../images/din-djarin.jpg") no-repeat 50%;
+    background-size: cover;
+}
+
+.lightsabers .din .text{
+    padding: 0 35px;
 }
