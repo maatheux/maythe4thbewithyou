@@ -285,23 +285,13 @@
     background-size: cover;
 }
 
-.lightsabers .obiwan .image{
-    background: url("../images/obiwan.jpg") no-repeat 50%;
+.lightsabers .luke .image{
+    background: url("../images/luke.jpg") no-repeat 40%;
     background-size: cover;
 }
 
-.lightsabers .yoda .image{
-    background: url("../images/yoda.jpg") no-repeat 50%;
-    background-size: cover;
-}
-
-.lightsabers .windu .image{
-    background: url("../images/mace-windu.jpg") no-repeat 50%;
-    background-size: cover;
-}
-
-.lightsabers .ahsoka .image{
-    background: url("../images/ahsoka.jpg") no-repeat;
+.lightsabers .rey .image{
+    background: url("../images/rey.png") no-repeat 40%;
     background-size: cover;
 }
 
@@ -317,4 +307,29 @@
 
 .lightsabers .din .text{
     padding: 0 35px;
+}
+
+.lightsabers .obiwan .image{
+    background: url("../images/obiwan.jpg") no-repeat 50%;
+    background-size: cover;
+}
+
+.lightsabers .kylo .image{
+    background: url("../images/kylo.jpg") no-repeat 0%;
+    background-size: cover;
+}
+
+.lightsabers .yoda .image{
+    background: url("../images/yoda.jpg") no-repeat 50%;
+    background-size: cover;
+}
+
+.lightsabers .ahsoka .image{
+    background: url("../images/ahsoka.jpg") no-repeat;
+    background-size: cover;
+}
+
+.lightsabers .windu .image{
+    background: url("../images/mace-windu.jpg") no-repeat 50%;
+    background-size: cover;
 }
