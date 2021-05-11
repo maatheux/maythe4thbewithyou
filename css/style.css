@@ -279,11 +279,16 @@
 }
 
 .lightsabers .anakin .image{
-    background: url("../images/anakin.jpg") no-repeat 70%;
+    background: url("../images/Anakin_Skywalker_RotS.png") no-repeat top;
     background-size: cover;
 }
 
 .lightsabers .obiwan .image{
     background: url("../images/obiwan.jpg") no-repeat 50%;
+    background-size: cover;
+}
+
+.lightsabers .yoda .image{
+    background: url("../images/yoda.jpg") no-repeat 50%;
     background-size: cover;
 }
