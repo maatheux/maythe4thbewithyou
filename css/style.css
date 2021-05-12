@@ -319,6 +319,10 @@
     background-size: cover;
 }
 
+.lightsabers .kylo .text{
+    padding: 0 40px;
+}
+
 .lightsabers .yoda .image{
     background: url("../images/yoda.jpg") no-repeat 50%;
     background-size: cover;
