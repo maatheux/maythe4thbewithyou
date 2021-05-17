@@ -383,6 +383,10 @@
     right: 30px;
 }
 
+.lightsabers .lightsaber-box .image a:hover .plus{
+    border-radius: 0 0 0 0;
+}
+
 footer{
     width: 100%;
     height: 80px;
