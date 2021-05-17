@@ -278,6 +278,8 @@
     width: 50%;
     height: 100%;
     background-color: #394247;
+    position: relative;
+   overflow: hidden;
 }
 
 .lightsabers .anakin .image{
@@ -336,6 +338,49 @@
 .lightsabers .windu .image{
     background: url("../images/mace-windu.jpg") no-repeat 50%;
     background-size: cover;
+}
+
+.lightsabers .lightsaber-box .image .link{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    top: 100%;
+    right: -100%;
+    transform: translateY(-100%);
+    background-color: rgb(198, 198, 198);
+    transition: all 1s;
+    border-radius: 4px 0 0 0;
+}
+
+.lightsabers .lightsaber-box .image .link .info{
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 10px;
+   color: #303030;
+   
+}
+
+.lightsabers .lightsaber-box .image .plus{
+   position: absolute;
+   top: 100%;
+   transform: translateY(-100%);
+   right: 0%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+   z-index: 1;
+   background-color: rgb(198, 198, 198);;
+   height: 30px;
+   width: 30px;
+   color: #303030;
+   border-radius: 4px 0 0 0;
+   transition: all 1s;
+}
+
+.lightsabers .lightsaber-box .image a:hover .link{
+    right: 30px;
 }
 
 footer{
