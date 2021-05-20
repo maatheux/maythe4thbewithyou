@@ -326,7 +326,7 @@
 }
 
 .lightsabers .kylo .image{
-    background: url("../images/kylo.jpg") no-repeat 0%;
+    background: url("../images/kylo.jpg") no-repeat 20%;
     background-size: cover;
 }
 
@@ -443,16 +443,8 @@ footer p{
         font-size: 3.9rem;
     }
 
-    .lightsabers .luke .image{
-        background-position: 50%;
-    }
-
-    .lightsabers .rey .image{
-        background-position: 58%;
-    }
-
     .lightsabers .vader .image{
-        background-position: 30%;
+        background-position: 10%;
     }
 
     .lightsabers .din .image{
@@ -467,11 +459,58 @@ footer p{
         background-position: 60%;
     }
 
-    .lightsabers .ahsoka .image{
-        background-position: 35%;
-    }
 
     .lightsabers .windu .image{
         background-position: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .lightsabers .lightsaber-box .text{
+        height: 60%;
+        
+    }
+
+    .lightsabers .lightsaber-box .image{
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .banner .logo{
+        width: 80%;
+    }
+
+    .lightsaber-main .text-content h2{
+        font-size: 2.8rem;
+    }
+
+    .lightsaber-main .text-content p{
+        font-size: 1rem;
+    }
+
+    .lightsabers .lightsaber-box .text{
+        height: 70%;
+        
+    }
+
+    .lightsabers .lightsaber-box .image{
+        height: 30%;
+    }
+
+    .lightsabers .lightsaber-box .image a{
+        font-size: 0.7rem;
+    }
+
+    .lightsabers .lightsaber-box .image a .plus{
+        font-size: 01rem;
+    }
+
+    .lightsabers .lightsaber-box .text h3{
+        font-size: 1.6rem;
+    }
+
+    .lightsabers .lightsaber-box .text p{
+        font-size: 1rem;
     }
 }
