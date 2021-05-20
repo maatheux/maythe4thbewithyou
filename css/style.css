@@ -127,6 +127,7 @@
     width: 15%;
     min-width: 205px;
     height: 25%;
+    max-height: 250px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -217,32 +218,40 @@
 .lightsaber-main{
     width: 100%;
     height: 90vh;
+    max-height: 700px;
     background-color: #151618;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    align-items: center;
 }
 
 .lightsaber-main .text-content{
     text-align: center;
-    width: 50%;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .lightsaber-main .text-content h2{
     color: #fff;
     font-size: 4.5rem;
     font-family: starjedi;
-    padding-bottom: 120px;
 }
 
 .lightsaber-main .text-content p{
     color: #fff;
     font-size: 1.2rem;
+    max-width: 680px;
+    display: inline-block;
 }
 
 .lightsabers .lightsaber-box{
     width: 100%;
     height: 70vh;
+    max-height: 450px;
     border-bottom: 1px solid #fff;
     background-color: #242423;
     display: flex;
@@ -255,10 +264,10 @@
 
 .lightsabers .lightsaber-box .text{
     display: flex;
-    flex-flow: wrap column; 
+    flex-flow: nowrap column; 
     justify-content: space-evenly;
     align-items: center;
-    
+    height: 100%;
     width: 50%;
     padding: 40px;
     color: #f5f5f5;
@@ -293,7 +302,7 @@
 }
 
 .lightsabers .rey .image{
-    background: url("../images/rey.png") no-repeat 40%;
+    background: url("../images/rey.png") no-repeat 50%;
     background-size: cover;
 }
 
@@ -399,4 +408,70 @@ footer{
 footer p{
     font-size: 0.9rem;
     color: #f5f5f5;
+}
+
+@media screen and (max-width: 1080px) {
+    .banner .logo{
+        width: 70%;
+    }
+
+    .lightsabers .lightsaber-box{
+        height: 140vh;
+        max-height: 1000px;
+    }
+    
+    .lightsabers .lightsaber-box .text{
+        width: 100%;
+        height: 50%;
+        
+    }
+
+    .lightsabers .lightsaber-box .image{
+        width: 100%;
+        height: 50%;
+        
+    }
+
+    .lightsabers .lightsaber-box .image .link{
+        right: 26px;
+    }
+}
+
+@media screen and (max-width:720px){
+
+    .lightsaber-main .text-content h2{
+        font-size: 3.9rem;
+    }
+
+    .lightsabers .luke .image{
+        background-position: 50%;
+    }
+
+    .lightsabers .rey .image{
+        background-position: 58%;
+    }
+
+    .lightsabers .vader .image{
+        background-position: 30%;
+    }
+
+    .lightsabers .din .image{
+        background-position: 40%;
+    }
+
+    .lightsabers .kylo .image{
+        background-position: 40%;
+    }
+
+    .lightsabers .yoda .image{
+        background-position: 60%;
+    }
+
+    .lightsabers .ahsoka .image{
+        background-position: 35%;
+    }
+
+    .lightsabers .windu .image{
+        background-position: 20%;
+    }
 }
