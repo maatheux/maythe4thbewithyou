@@ -1,6 +1,6 @@
 # May the forth be with you
  
-Em homenagem ao dia 4 de março, mais conhecido como Dia do Star Wars, eu realizei um projeto falando um pouco sobre uma das armas mais icónicas da cultura pop, o sabre de luz. Conheça um pouco sobre os sabres de luz de personagens como Ankin Skywalker, Ahsoka Tano, Darth Vader e muito mais.
+Em homenagem ao dia 4 de março, mais conhecido como Dia do Star Wars, eu realizei um projeto falando um pouco sobre uma das armas mais icónicas da cultura pop, o sabre de luz. Conheça um pouco sobre os sabres de luz de personagens como Anakin Skywalker, Luke Skywalker, Darth Vader e muito mais.
  
 Caso tenha curtido o meu projeto e queira me ajudar marque a estrela :star:
  
