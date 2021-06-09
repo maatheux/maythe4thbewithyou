@@ -8,5 +8,5 @@ Também se puder me siga no Instagram, no LinkedIn e também aqui no Github. Cas
  
 Caso queira ver como ficou acesse esse link: [https://marinhoo.github.io/maythe4thbewithyou/](https://marinhoo.github.io/maythe4thbewithyou/)
 
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/marinho.dev/)](https://www.instagram.com/marinho.dev/) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-lima-71ab321b6/)](https://www.linkedin.com/in/matheus-lima-71ab321b6/)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/matheusmaarinho/)](https://www.instagram.com/matheusmaarinho/) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-lima-71ab321b6/)](https://www.linkedin.com/in/matheus-lima-71ab321b6/)
 
