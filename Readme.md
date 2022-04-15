@@ -4,7 +4,7 @@ Em homenagem ao dia 4 de março, mais conhecido como Dia do Star Wars, eu realiz
  
 Caso tenha curtido o meu projeto e queira me ajudar marque a estrela :star:
  
-Caso queira ver como ficou acesse esse link: [https://marinhoo.github.io/maythe4thbewithyou/](https://marinhoo.github.io/maythe4thbewithyou/)
+Caso queira ver como ficou acesse esse link: [https://marinhoo.github.io/maythe4thbewithyou/](https://maatheux.github.io/maythe4thbewithyou/)
 
 Também se puder me siga no Instagram, no LinkedIn e também aqui no Github. Caso queira dar um feedback ou sugestão é só mandar uma mensagem por meio de algumas dessas redes abaixo ⬇️
 
